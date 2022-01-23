@@ -1,6 +1,6 @@
 # AcmeShield
 
-
+![alt text](ExampleImage.png "Title")
 A secured HTTP proxy that forwards requests to a remote service(Postman). This is a tool that will proxy simple HTTPS requests to an external HTTP endpoint (service in the image above)
 
 ## Description
