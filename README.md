@@ -18,9 +18,9 @@ The HTTP proxy operates between the sending Web server and your receiving Web cl
 * Make sure to have Git installed on your enviroment.
 * Run the following commad to install the program:
 ```
-go install github.com/tavikano/acmeproxy@latest
+go install github.com/tavikano/acmeshield@latest
 ```
-* This downloads acmeproxy and all of its dependencies, builds the program, and installs the binary in your $GOPATH/bin directory.
+* This downloads acmeshield and all of its dependencies, builds the program, and installs the binary in your $GOPATH/bin directory.
 * Run the application on your terminal by running: proxy
 
 ### Executing program
@@ -35,7 +35,7 @@ curl ​http://localhost:8080/test
 
 Port Configuration
 ```
-To Configure the listening port, update line 11 of the acmeproxy.go file to the desired port number.
+To Configure the listening port, update line 11 of the acmeshield.go file to the desired port number.
 ```
 
 ## Authors
