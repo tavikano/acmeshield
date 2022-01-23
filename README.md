@@ -12,7 +12,7 @@ The HTTP proxy operates between the sending Web server and your receiving Web cl
 
 ### Installing
 
-* Make sure to have GoLang installed in your enviroment. Found at [https://go.dev/doc/install]
+* Make sure to have Go installed in your enviroment. Found at [https://go.dev/doc/install]
 * Make sure to have Git installed on your enviroment. Found at [https://git-scm.com/downloads]
 * Make sure to have cURL. Found at [https://curl.se]
 
