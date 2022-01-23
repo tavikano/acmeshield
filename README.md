@@ -17,7 +17,7 @@ The HTTP proxy operates between the sending Web server and your receiving Web cl
 
 ---
 * When git and golang are installed.
-* Run the following commad to install the application:
+* From a Terminal application, run the following commad to install the application:
 ```
 go install github.com/tavikano/acmeshield@latest
 ```
