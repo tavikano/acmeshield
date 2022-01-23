@@ -21,12 +21,12 @@ The HTTP proxy operates between the sending Web server and your receiving Web cl
 go install github.com/tavikano/acmeshield@latest
 ```
 * This downloads acmeshield and all of its dependencies, builds the program, and installs the binary in your $GOPATH/bin directory.
-* Run the application on your terminal by running: proxy
 
 ### Executing program
 
-1. Execute program
-2. Using BASH/ZSHELL on a Terminal/Powershell app, run the following command:
+1. Go to the GO binaries folder. (The MacOS is  ```~/go/bin``` by default)
+2. Using admin credentials, run the following command: ```sudo ./acmeproxy```
+3. Using BASH/ZSHELL termninal on a separate tab/window, run the following command:
 ```
 curl ​http://localhost:8080/test
 ```
@@ -35,7 +35,7 @@ curl ​http://localhost:8080/test
 
 Port Configuration
 ```
-To Configure the listening port, update line 11 of the acmeshield.go file to the desired port number.
+To configure the listening port, update line 11 of the acmeshield.go file to the desired port number.
 ```
 
 ## Authors
