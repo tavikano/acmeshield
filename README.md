@@ -24,8 +24,8 @@ go install github.com/tavikano/acmeshield@latest
 
 ### Executing program
 
-1. Go to the GO binaries folder. (The MacOS is  ```~/go/bin``` by default)
-2. Using admin credentials, run the following command: ```sudo ./acmeproxy```
+1. Go to the GO binaries folder. (Linux and MacOS is  ```/usr/local/go/bin``` by default, Windows is ``` C:\Go\bin``` by default.
+2. Using admin credentials, run the binary: Linux/MacOS: ```sudo ./acmeproxy``` Windows: ```acmeproxy.exe```.
 3. Using BASH/ZSHELL termninal on a separate tab/window, run the following command:
 ```
 curl ​http://localhost:8080/test
