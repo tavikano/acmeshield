@@ -9,9 +9,6 @@ The HTTP proxy operates between the sending Web server and your receiving Web cl
 ## Getting Started
 
 ---
-### Dependencies
-
-* Golang Standard Library. Found at [https://pkg.go.dev/std]
 
 ### Installing
 
@@ -19,16 +16,22 @@ The HTTP proxy operates between the sending Web server and your receiving Web cl
 * Make sure to have Git installed on your enviroment. Found at [https://git-scm.com/downloads]
 
 ---
+* When git and golang are installed.
 * Run the following commad to install the application:
 ```
 go install github.com/tavikano/acmeshield@latest
 ```
 * This command downloads acmeshield and all of its dependencies, builds the program, and installs the binary in your $GOPATH/bin directory.
+### Dependencies
+
+* *No external dependencies required.
+* ** Acmeshield primarily uses Golang Standard Library. Found at [https://pkg.go.dev/std]
+
 ---
 ### Executing program
 
-1. Go to the GO binaries folder. (Linux and MacOS is  ```/usr/local/go/bin``` by default, Windows is ``` C:\Go\bin``` by default.
-2. Using admin credentials, run the binary: Linux/MacOS: ```sudo ./acmeproxy``` Windows: ```acmeproxy.exe```.
+1. Go to the GO binaries folder. (Linux and MacOS is  ```/usr/local/go/bin``` by default, Windows is ``` C:\Go\bin``` by default).
+2. Using admin priviledges, run the binary: Linux/MacOS: ```sudo ./acmeproxy``` Windows: ```acmeproxy.exe```.
 3. Using BASH/ZSHELL termninal on a separate tab/window, run the following command:
 ```
 curl ​http://localhost:8080/test
