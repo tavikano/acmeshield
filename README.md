@@ -38,7 +38,7 @@ go install github.com/tavikano/acmeshield@latest
 curl ​http://localhost:8080/test
 ```
 
-## Example cRUL REST API request along HTTP Headers.
+## cURL request w/ HTTP Headers.
 ```
 curl --location --request GET 'localhost:8080/test' \
 --header 'x-forwarded-proto: https' \
