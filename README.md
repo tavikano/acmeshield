@@ -33,7 +33,7 @@ go install github.com/tavikano/acmeshield@latest
 
 1. Go to the GO binaries folder. (Linux and MacOS is  ```/usr/local/go/bin``` by default, Windows is ``` C:\Go\bin``` by default).
 2. Using admin priviledges, run the binary: Linux/MacOS: ```sudo ./acmeshield``` Windows: ```acmeshield.exe```.
-3. Using BASH/ZSHELL Shell in Terminal or Powershell on a separate tab/window, run the following command( add -v flag for verbose mode):
+3. Using BASH/ZSHELL Shell in Terminal or Powershell on a separate tab/window, run the following cURL command(add -v flag for verbose mode):
 ```
 curl ​http://localhost:8080/test
 ```
